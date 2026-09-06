@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bxjpnvaxk6i81"]
+
+[ext_resource type="Texture2D" uid="uid://d0qnyfex50qty" path="res://Textures/Start.png" id="1_3bxa3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m6x6n"]
+
+[node name="Start" type="Node2D" unique_id=339550814]
+
+[node name="StartA2D" type="Area2D" parent="." unique_id=290977828]
+collision_layer = 4
+
+[node name="StartCS2D" type="CollisionShape2D" parent="StartA2D" unique_id=890060926]
+scale = Vector2(0.5, 0.5)
+shape = SubResource("RectangleShape2D_m6x6n")
+debug_color = Color(0.86676663, 0.35521936, 0, 0.41960785)
+
+[node name="Start" type="Sprite2D" parent="StartA2D" unique_id=1582899393]
+scale = Vector2(10, 10)
+texture = ExtResource("1_3bxa3")

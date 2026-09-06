@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bu6whklksuqmq"]
+
+[ext_resource type="Texture2D" uid="uid://wp2udgoby1x6" path="res://Textures/CamPosBG.png" id="1_ucsyf"]
+
+[node name="Campos" type="Node2D" unique_id=2113871496]
+
+[node name="CamPosBg" type="Sprite2D" parent="." unique_id=889525613]
+z_index = -500
+scale = Vector2(1280, 720)
+texture = ExtResource("1_ucsyf")

@@ -7,6 +7,7 @@
 [node name="Goal" type="Node2D" unique_id=200749198]
 
 [node name="GoalA2D" type="Area2D" parent="." unique_id=1080948886]
+collision_layer = 8
 
 [node name="GoalCS2D" type="CollisionShape2D" parent="GoalA2D" unique_id=1434170845]
 scale = Vector2(0.5, 0.5)

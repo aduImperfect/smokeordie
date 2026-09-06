@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://vhdq7vm0epc0" path="res://Scenes/goal.tscn" id="2_njhy2"]
 [ext_resource type="PackedScene" uid="uid://bu6whklksuqmq" path="res://Scenes/campos.tscn" id="3_m6f6w"]
 [ext_resource type="PackedScene" uid="uid://cw2v03cixxw6n" path="res://Scenes/wall.tscn" id="4_njhy2"]
+[ext_resource type="PackedScene" uid="uid://b0ymgp6tsnsej" path="res://Scenes/enemy.tscn" id="5_m6f6w"]
 
 [node name="Level1" type="Node2D" unique_id=1890080345]
 
@@ -35,3 +36,10 @@ scale = Vector2(5, 170)
 [node name="Wall_Area1" parent="." unique_id=1636559757 instance=ExtResource("4_njhy2")]
 position = Vector2(275, 300)
 scale = Vector2(10, 20)
+
+[node name="Wall_Area2" parent="." unique_id=1229941554 instance=ExtResource("4_njhy2")]
+position = Vector2(1125, 723)
+scale = Vector2(20, 40)
+
+[node name="Enemy" parent="." unique_id=1233474620 instance=ExtResource("5_m6f6w")]
+position = Vector2(989, 210)

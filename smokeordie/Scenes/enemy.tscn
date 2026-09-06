@@ -11,9 +11,8 @@ collision_layer = 16
 gravity_scale = 0.0
 
 [node name="EnemyCS2D" type="CollisionShape2D" parent="EnemyRB2D" unique_id=673596085]
-scale = Vector2(0.5, 0.5)
 shape = SubResource("RectangleShape2D_m6x6n")
 
 [node name="Enemy" type="Sprite2D" parent="EnemyRB2D" unique_id=1149662096]
-scale = Vector2(10, 10)
+scale = Vector2(20, 20)
 texture = ExtResource("1_hghv2")

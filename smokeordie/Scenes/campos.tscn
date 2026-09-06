@@ -6,5 +6,5 @@
 
 [node name="CamPosBg" type="Sprite2D" parent="." unique_id=889525613]
 z_index = -1200
-scale = Vector2(1280, 720)
+scale = Vector2(640, 360)
 texture = ExtResource("1_ucsyf")
